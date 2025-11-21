@@ -1,0 +1,21 @@
+Despues de tener todos los archivos
+
+1 docker network ls  --listado de redes
+
+    # docker volume create sgu-volume
+
+    # docker network create --driver bridge sgu-net
+
+2 docker compose build --no-cache
+
+3 docker compose up -d
+
+Checamos en docker los contenedores
+
+Jenkins
+-Creamos nueva tarea -seleccionamos pipeline
+ -GitHub Trigger
+ -Pipeline SCM
+    -Git
+    -main
+save

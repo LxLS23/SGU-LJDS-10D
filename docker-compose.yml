@@ -48,10 +48,12 @@ services:
     depends_on:
       - frontend
 
+# docker volume create sgu-volume
 volumes:
   sgu-volume:
     external: true
 
+# docker network create --driver bridge sgu-net
 networks:
   sgu-net:
     external: true
