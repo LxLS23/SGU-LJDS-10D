@@ -1,3 +1,5 @@
+npm create vite@latest
+
 Despues de tener todos los archivos
 
 1 docker network ls  --listado de redes
